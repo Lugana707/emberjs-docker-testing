@@ -1,4 +1,4 @@
-FROM node:10.17.0-stretch
+FROM node:12.8.1-stretch
 LABEL maintainer="Booker Software"
 
 # Environment variables
