@@ -2,15 +2,12 @@
 This Docker image, will setup a system so your ember tests can be executed inside the container itself.
 
 ## Supported tags and respective `Dockerfile` links
-+ [`latest` (Dockerfile)](https://github.com/BookerSoftwareInc/emberjs-docker-testing/blob/master/Dockerfile)
-+ [`3.0.0-golang` (3.0.0-golang/Dockerfile)](https://github.com/BookerSoftwareInc/emberjs-docker-testing/blob/3.0.0-golang/Dockerfile)
-+ [`2.18.2` (2.18.2/Dockerfile)](https://github.com/BookerSoftwareInc/emberjs-docker-testing/blob/2.18.2/Dockerfile)
-+ [`2.18.2-golang` (2.18.2-golang/Dockerfile)](https://github.com/BookerSoftwareInc/emberjs-docker-testing/blob/2.18.2-golang/Dockerfile)
++ [`latest` (Dockerfile)](https://github.com/lugana707/emberjs-docker-testing/blob/master/Dockerfile)
 
 ## Run the Image
 
 ```
-docker run --rm -ti -v "$PWD":/app -p 7357:7357 bookerdev/emberjs-docker-testing bash
+docker run --rm -ti -v $PWD:/app -p 7357:7357 lugana707/emberjs-docker-testing:latest bash
 ```
 
 ### Run Your Tests
